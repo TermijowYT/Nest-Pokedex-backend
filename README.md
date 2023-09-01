@@ -28,6 +28,11 @@ npm run start:dev
 ```
 docker-compose up -d
 ```
+
+6. Iniciar el SEED de pruebas
+```
+http://localhost:3000/api/v2/seed/
+```
 ## Stack Usado
 - MongoDB
 - Nest

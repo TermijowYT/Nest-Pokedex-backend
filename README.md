@@ -19,17 +19,21 @@ npm i -g @nest/cli
 ```
 cd Documents/Dev/Projects/Fernando/nestjs/03-pokedex/
 ```
-4. Iniciar el servidor 
+5. Iniciar el servidor 
 ```
 npm run start:dev
 ```
 
-5. Abrir docker, tableplus y Levantar la base de datos
+6. Abrir docker, tableplus y Levantar la base de datos
 ```
 docker-compose up -d
 ```
 
-6. Iniciar el SEED de pruebas
+7. Clonar el archivo ___.env.template___ y renombrar la copia a ___.env___
+
+8. Llenar las variables de entorno definidas en __.env__  
+
+9. Iniciar el SEED de pruebas
 ```
 http://localhost:3000/api/v2/seed/
 ```
